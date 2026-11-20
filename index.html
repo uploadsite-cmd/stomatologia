@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Da'Vinci — стоматологическая клиника в Грозном</title>
+  <meta name="description" content="Стоматологическая клиника Da'Vinci в Грозном: имплантация, ортодонтия, эстетика и лечение зубов. Современное оборудование и внимательный подход. Запись по телефону +7 (938) 900-32-32.">
+  <meta name="theme-color" content="#0b0b0a">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Da'Vinci — стоматологическая клиника в Грозном">
+  <meta property="og:description" content="Имплантация, ортодонтия, эстетика и лечение зубов. Клиника Da'Vinci, ул. Жданова, 23, Грозный.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Da'Vinci",
+    "description": "Стоматологическая клиника Da'Vinci в Грозном: имплантация, ортодонтия, эстетика, терапия и протезирование.",
+    "image": "assets/img/og-image.jpg",
+    "telephone": "+7 938 900-32-32",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Жданова, 23",
+      "addressLocality": "Грозный",
+      "addressRegion": "Чеченская Республика",
+      "postalCode": "366015",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday", "Sunday"],
+      "opens": "10:00",
+      "closes": "17:00"
+    }],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "bestRating": "5",
+      "reviewCount": "21"
+    },
+    "sameAs": ["https://yandex.ru/maps/org/da_vinci/13599512220/"]
+  }
+  </script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Da'Vinci — на главную">
+        <img class="brand__img" src="assets/img/logo-cream.png" alt="Da'Vinci">
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#about">О клинике</a>
+        <a href="#doctors">Врачи</a>
+        <a href="results.html">Результаты</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+        <button class="btn btn--primary nav__cta" type="button" data-open-booking>Записаться</button>
+        <a class="nav__phone" href="tel:+79389003232">+7 (938) 900-32-32</a>
+      </nav>
+
+      <div class="header__actions">
+        <a class="header__phone" href="tel:+79389003232">+7 (938) 900-32-32</a>
+        <button class="btn btn--primary header__cta" type="button" data-open-booking>
+          Записаться
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="burger" type="button" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__media">
+        <img src="assets/img/hero-facade.jpg" alt="Клиника Da'Vinci вечером — подсвеченная вывеска на фасаде" data-parallax>
+        <div class="hero__media-overlay" aria-hidden="true"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow">стоматологическая клиника · грозный</p>
+          <h1 class="hero__title">
+            Улыбка,<br>
+            достойная <em>полотна</em>
+          </h1>
+          <p class="hero__lead">
+            Клиника Da'Vinci — это эстетика, имплантация и ортодонтия
+            с вниманием к каждой детали. Современные технологии,
+            спокойная обстановка и врачи, которым доверяют.
+          </p>
+
+          <div class="hero__actions">
+            <button class="btn btn--primary" type="button" data-open-booking>
+              Записаться на консультацию
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <a class="btn btn--ghost" href="results.html">
+              <span class="btn__play" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h13M13 7l5 5-5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              Наши работы
+            </a>
+          </div>
+
+          <dl class="hero__stats">
+            <div class="stat">
+              <dt class="stat__value"><span data-count="4.7" data-decimals="1">4,7</span></dt>
+              <dd class="stat__label">рейтинг на Яндекс.Картах</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value"><span data-count="21">21</span></dt>
+              <dd class="stat__label">отзыв пациентов</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value"><span data-count="9">9</span>+</dt>
+              <dd class="stat__label">направлений лечения</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero__rating" aria-label="Рейтинг клиники">
+          <div class="hero__rating-stars" aria-hidden="true">★★★★★</div>
+          <p><strong>4,7</strong> · 21 отзыв</p>
+          <span>Яндекс.Карты</span>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container">
+        <div class="features__grid">
+          <article class="feature reveal">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M24 13c-3.4-2.6-6.7-3.8-9.6-3-4.8 1.3-7.1 6.1-6.5 11.8.4 4 2.1 7.2 3 11.8.4 2.3.6 4.6 1.3 6.9.4 1.7 1.1 3 2.5 3 1.9 0 2.5-1.9 3.1-4.4.6-2.5 1.1-5 3-6.7 1-.9 2.1-1.3 3.2-1.3s2.2.4 3.2 1.3c1.9 1.7 2.4 4.2 3 6.7.6 2.5 1.2 4.4 3.1 4.4 1.4 0 2.1-1.3 2.5-3 .7-2.3.9-4.6 1.3-6.9.9-4.6 2.6-7.8 3-11.8.6-5.7-1.7-10.5-6.5-11.8-2.9-.8-6.2.4-9.6 3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                <path d="M17 20.5c2.6 1.4 4.8 1.3 7 0" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <div>
+              <h3>Цифровая диагностика</h3>
+              <p>Точные снимки и понятный план лечения до его начала.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal" style="--d:.08s">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M24 7c-4.4 0-7.5 1.3-7.5 3.2v20.6c0 1.1 1 2 2.3 2.5v5.4c0 1.2 1 2.3 2.5 2.3s2.5-1.1 2.5-2.3v-5.2h.4v5.2c0 1.2 1 2.3 2.5 2.3s2.5-1.1 2.5-2.3v-5.4c1.3-.5 2.3-1.4 2.3-2.5V10.2C31.5 8.3 28.4 7 24 7Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                <path d="M18 13.5h12M18 17.5h12M18 21.5h12M18 25.5h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                <path d="M20.5 7v22.5M27.5 7v22.5" stroke="currentColor" stroke-width="1.2"/>
+              </svg>
+            </span>
+            <div>
+              <h3>Имплантация под ключ</h3>
+              <p>Восстанавливаем зубы так, чтобы не отличить от своих.</p>
+            </div>
+          </article>
+
+          <article class="feature reveal" style="--d:.16s">
+            <span class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M24 8l3.6 10.4L38 22l-10.4 3.6L24 36l-3.6-10.4L10 22l10.4-3.6L24 8Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+                <path d="M35 33l1.6 4.4L41 39l-4.4 1.6L35 45l-1.6-4.4L29 39l4.4-1.6L35 33Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div>
+              <h3>Эстетика и красота</h3>
+              <p>Виниры, отбеливание и реставрация — идеальная улыбка.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Имплантация</span><i></i><span>Ортодонтия</span><i></i><span>Виниры</span><i></i><span>Отбеливание</span><i></i><span>Протезирование</span><i></i><span>Хирургия</span><i></i><span>Лечение каналов</span><i></i>
+        <span>Имплантация</span><i></i><span>Ортодонтия</span><i></i><span>Виниры</span><i></i><span>Отбеливание</span><i></i><span>Протезирование</span><i></i><span>Хирургия</span><i></i><span>Лечение каналов</span><i></i>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__content reveal">
+          <p class="eyebrow">о клинике</p>
+          <h2>Клиника, в которой<br>продумано <em>всё</em></h2>
+          <p class="lead">
+            Da'Vinci — пространство, где современная стоматология встречается
+            с заботой о человеке. Мы начинаем с диагностики и разговора,
+            а не с лечения: объясняем каждый шаг и предлагаем только то,
+            что действительно нужно.
+          </p>
+
+          <ul class="checklist">
+            <li>Приём по предварительной записи — без ожидания в очереди</li>
+            <li>Стерильность и индивидуальные наборы инструментов</li>
+            <li>Современное оборудование, включая цифровую диагностику</li>
+            <li>Wi-Fi, парковка и доступный вход для маломобильных гостей</li>
+          </ul>
+
+          <a class="link-arrow" href="#services">
+            Подробнее об услугах
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="about__media reveal" style="--d:.1s">
+          <figure class="about__photo about__photo--main">
+            <img src="assets/img/reception.jpg" alt="Ресепшн клиники Da'Vinci с подсвеченным логотипом" loading="lazy">
+          </figure>
+          <figure class="about__photo about__photo--small">
+            <img src="assets/img/cabinet.jpg" alt="Стоматологический кабинет клиники Da'Vinci" loading="lazy">
+          </figure>
+          <div class="about__badge">
+            <span class="about__badge-value">4,7</span>
+            <span class="about__badge-label">рейтинг клиники<br>на Яндекс.Картах</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <div>
+            <p class="eyebrow">услуги</p>
+            <h2>Всё, что нужно<br>для здоровой <em>улыбки</em></h2>
+          </div>
+          <p class="section-head__note">
+            Полный спектр стоматологических услуг в одном месте —
+            от профилактической чистки до сложной имплантации.
+          </p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service reveal">
+            <span class="service__num">01</span>
+            <h3>Имплантация</h3>
+            <p>Восстановление зубов под ключ: от диагностики и установки импланта до коронки.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Имплантация">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.05s">
+            <span class="service__num">02</span>
+            <h3>Ортодонтия</h3>
+            <p>Брекеты и элайнеры для ровной улыбки и здорового прикуса в любом возрасте.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Ортодонтия">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.1s">
+            <span class="service__num">03</span>
+            <h3>Эстетика</h3>
+            <p>Виниры, люминиры и отбеливание — улыбка, которая выглядит естественно.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Эстетическая стоматология">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__num">04</span>
+            <h3>Терапия</h3>
+            <p>Лечение кариеса и каналов, в том числе под микроскопом, без боли и спешки.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Терапия">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.05s">
+            <span class="service__num">05</span>
+            <h3>Протезирование</h3>
+            <p>Коронки и мосты, которые повторяют форму и оттенок ваших зубов.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Протезирование">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.1s">
+            <span class="service__num">06</span>
+            <h3>Хирургия</h3>
+            <p>Атравматичное удаление зубов и костная пластика при подготовке к имплантации.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Хирургия">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal">
+            <span class="service__num">07</span>
+            <h3>Гигиена</h3>
+            <p>Профессиональная чистка, уход за дёснами и профилактика заболеваний.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Гигиена">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.05s">
+            <span class="service__num">08</span>
+            <h3>Цифровая стоматология</h3>
+            <p>CAD/CAM и 3D-диагностика — точное планирование результата до лечения.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Цифровая стоматология">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+
+          <article class="service reveal" style="--d:.1s">
+            <span class="service__num">09</span>
+            <h3>Лечение дёсен</h3>
+            <p>Терапия пародонтита и профессиональный уход за тканью дёсен.</p>
+            <button class="service__link" type="button" data-open-booking data-service="Лечение дёсен">
+              Записаться
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctors -->
+    <section class="section doctors" id="doctors">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <div>
+            <p class="eyebrow">команда</p>
+            <h2>Врачи, которым<br>доверяют <em>улыбки</em></h2>
+          </div>
+        </header>
+
+        <div class="doctors__grid">
+          <article class="doctor reveal">
+            <div class="doctor__photo">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="18" r="7" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M11 40c1.6-7.4 6.6-11 13-11s11.4 3.6 13 11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              <span class="doctor__soon">скоро</span>
+            </div>
+            <h3>Стоматолог-терапевт</h3>
+            <p>Лечение кариеса и каналов</p>
+          </article>
+
+          <article class="doctor reveal" style="--d:.06s">
+            <div class="doctor__photo">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="18" r="7" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M11 40c1.6-7.4 6.6-11 13-11s11.4 3.6 13 11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              <span class="doctor__soon">скоро</span>
+            </div>
+            <h3>Ортодонт</h3>
+            <p>Брекеты и элайнеры</p>
+          </article>
+
+          <article class="doctor reveal" style="--d:.12s">
+            <div class="doctor__photo">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="18" r="7" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M11 40c1.6-7.4 6.6-11 13-11s11.4 3.6 13 11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              <span class="doctor__soon">скоро</span>
+            </div>
+            <h3>Хирург-имплантолог</h3>
+            <p>Имплантация и костная пластика</p>
+          </article>
+
+          <article class="doctor reveal" style="--d:.18s">
+            <div class="doctor__photo">
+              <svg viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="18" r="7" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M11 40c1.6-7.4 6.6-11 13-11s11.4 3.6 13 11" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+              <span class="doctor__soon">скоро</span>
+            </div>
+            <h3>Стоматолог-ортопед</h3>
+            <p>Коронки и протезирование</p>
+          </article>
+        </div>
+
+        <p class="doctors__note reveal">Фотографии и имена врачей появятся здесь совсем скоро.</p>
+      </div>
+    </section>
+
+    <!-- Results teaser -->
+    <section class="section results-teaser">
+      <div class="container results-teaser__grid">
+        <div class="results-teaser__media reveal">
+          <div class="ba-pair">
+            <figure class="ba-pair__item">
+              <img src="assets/img/teeth-before.jpg" alt="Улыбка до лечения" loading="lazy">
+              <figcaption>до</figcaption>
+            </figure>
+            <figure class="ba-pair__item">
+              <img src="assets/img/teeth-after.jpg" alt="Улыбка после лечения" loading="lazy">
+              <figcaption>после</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="results-teaser__content reveal" style="--d:.1s">
+          <p class="eyebrow">результаты</p>
+          <h2>Разница,<br>которую видно</h2>
+          <p class="lead">
+            Настоящие работы нашей клиники: эстетическая реставрация,
+            исправление прикуса и восстановление зубов. Без ретуши
+            и стоковых фотографий.
+          </p>
+          <a class="btn btn--primary" href="results.html">
+            Смотреть все работы
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <header class="section-head reveal">
+          <div>
+            <p class="eyebrow">отзывы</p>
+            <h2>Отзывы наших<br>пациентов</h2>
+          </div>
+          <div class="reviews__rating">
+            <span class="reviews__rating-value">4,7</span>
+            <span class="reviews__rating-stars" aria-hidden="true">★★★★★</span>
+            <span class="reviews__rating-label">на основе 21 отзыва<br>на Яндекс.Картах</span>
+          </div>
+        </header>
+
+        <div class="reviews__grid">
+          <article class="review reveal">
+            <span class="review__quote" aria-hidden="true">”</span>
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>Была во многих клиниках, но такого комфортного лечения и приятной обстановки не везде встретишь. Отдельная благодарность Эльгериевой Зулай — она на отлично знает свою работу.</p>
+            <footer>
+              <span class="review__author">Залина Джамбетова</span>
+              <span class="review__source">Яндекс.Карты</span>
+            </footer>
+          </article>
+
+          <article class="review reveal" style="--d:.08s">
+            <span class="review__quote" aria-hidden="true">”</span>
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>Год и 10 месяцев длилось моё ортодонтическое лечение у Абдуллаева Хамзата. Он сразу увидел проблему с суставом и вёл меня по чёткому плану. Очень довольна результатом!</p>
+            <footer>
+              <span class="review__author">Ясмина Адаева</span>
+              <span class="review__source">Яндекс.Карты</span>
+            </footer>
+          </article>
+
+          <article class="review reveal" style="--d:.16s">
+            <span class="review__quote" aria-hidden="true">”</span>
+            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+            <p>Самая лучшая клиника в Чеченской Республике! Лечилась и делала чистку у Эльгериевой Зулай Вахаевны — специалист своего дела. Медперсонал и администраторы очень приветливые.</p>
+            <footer>
+              <span class="review__author">Иман Хунарикова</span>
+              <span class="review__source">Яндекс.Карты</span>
+            </footer>
+          </article>
+        </div>
+
+        <div class="reviews__more reveal">
+          <a class="link-arrow" href="https://yandex.ru/maps/org/da_vinci/13599512220/reviews/" target="_blank" rel="noopener">
+            Все отзывы на Яндекс.Картах
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section class="section booking" id="booking">
+      <div class="container">
+        <div class="booking__card reveal">
+          <div class="booking__content">
+            <p class="eyebrow">сделайте первый шаг</p>
+            <h2>Запишитесь<br>на консультацию</h2>
+            <ul class="checklist checklist--tight">
+              <li>Осмотр и консультация специалиста</li>
+              <li>Диагностика и составление плана лечения</li>
+              <li>Ответим на все ваши вопросы</li>
+            </ul>
+
+            <form class="form" id="bookingForm" novalidate>
+              <div class="form__row">
+                <label class="field">
+                  <span class="field__label">Ваше имя</span>
+                  <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required>
+                  <span class="field__error" data-error-for="name"></span>
+                </label>
+                <label class="field">
+                  <span class="field__label">Телефон</span>
+                  <input type="tel" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__" inputmode="tel" required>
+                  <span class="field__error" data-error-for="phone"></span>
+                </label>
+              </div>
+              <label class="field">
+                <span class="field__label">Направление</span>
+                <select name="service">
+                  <option value="">Выберите услугу</option>
+                  <option>Имплантация</option>
+                  <option>Ортодонтия</option>
+                  <option>Эстетическая стоматология</option>
+                  <option>Терапия</option>
+                  <option>Протезирование</option>
+                  <option>Хирургия</option>
+                  <option>Гигиена</option>
+                  <option>Цифровая стоматология</option>
+                  <option>Лечение дёсен</option>
+                  <option>Другое</option>
+                </select>
+              </label>
+              <button class="btn btn--primary btn--wide" type="submit">
+                Записаться
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+              <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+              <p class="form__success" role="status" hidden>
+                Спасибо! Заявка принята — мы свяжемся с вами в рабочее время.
+              </p>
+            </form>
+          </div>
+
+          <div class="booking__media" aria-hidden="true">
+            <img src="assets/img/cabinet.jpg" alt="" loading="lazy">
+            <div class="booking__media-overlay"></div>
+            <div class="booking__media-caption">
+              <span>ул. Жданова, 23</span>
+              <span>Грозный</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contacts">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/img/logo-cream.png" alt="Da'Vinci" class="footer__logo">
+          <p>Стоматологическая клиника<br>в Грозном</p>
+        </div>
+
+        <div class="footer__col">
+          <h3>Контакты</h3>
+          <a href="tel:+79389003232" class="footer__phone">+7 (938) 900-32-32</a>
+          <a href="https://yandex.ru/maps/org/da_vinci/13599512220/" target="_blank" rel="noopener">ул. Жданова, 23, Грозный</a>
+        </div>
+
+        <div class="footer__col">
+          <h3>Режим работы</h3>
+          <p>Пн–Чт, Сб, Вс — 10:00–17:00<br>перерыв 12:00–13:00<br><span>Пятница — выходной</span></p>
+        </div>
+
+        <div class="footer__col">
+          <h3>Разделы</h3>
+          <a href="#services">Услуги</a>
+          <a href="#about">О клинике</a>
+          <a href="#doctors">Врачи</a>
+          <a href="results.html">Результаты</a>
+          <a href="#reviews">Отзывы</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year">2026</span> Стоматологическая клиника Da'Vinci</p>
+        <p>Не является публичной офертой</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking modal -->
+  <div class="modal" id="bookingModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" type="button" aria-label="Закрыть" data-close-modal>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+
+      <p class="eyebrow">da'vinci</p>
+      <h2 id="modalTitle">Запись на приём</h2>
+      <p class="modal__lead">Оставьте контакты — администратор подберёт удобное время.</p>
+
+      <form class="form" id="modalForm" novalidate>
+        <label class="field">
+          <span class="field__label">Ваше имя</span>
+          <input type="text" name="name" autocomplete="name" placeholder="Как к вам обращаться" required>
+          <span class="field__error" data-error-for="name"></span>
+        </label>
+        <label class="field">
+          <span class="field__label">Телефон</span>
+          <input type="tel" name="phone" autocomplete="tel" placeholder="+7 (___) ___-__-__" inputmode="tel" required>
+          <span class="field__error" data-error-for="phone"></span>
+        </label>
+        <label class="field">
+          <span class="field__label">Направление</span>
+          <select name="service">
+            <option value="">Выберите услугу</option>
+            <option>Имплантация</option>
+            <option>Ортодонтия</option>
+            <option>Эстетическая стоматология</option>
+            <option>Терапия</option>
+            <option>Протезирование</option>
+            <option>Хирургия</option>
+            <option>Гигиена</option>
+            <option>Цифровая стоматология</option>
+            <option>Лечение дёсен</option>
+            <option>Другое</option>
+          </select>
+        </label>
+        <button class="btn btn--primary btn--wide" type="submit">
+          Отправить заявку
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="form__note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+        <p class="form__success" role="status" hidden>
+          Спасибо! Заявка принята — мы свяжемся с вами в рабочее время.
+        </p>
+      </form>
+
+      <div class="modal__footer">
+        <span>Или позвоните нам</span>
+        <a href="tel:+79389003232">+7 (938) 900-32-32</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
